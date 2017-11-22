@@ -1,0 +1,250 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="MyAmazon.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        MyAmazon
+
+    </title>
+  
+    <style type="text/css">
+
+
+
+
+
+
+  			
+				p{
+					color:#8B4789;
+					font-family:Trebuchet MS;
+					line-height:130%;
+					text-indent:100px;
+					padding:22px;
+					margin: 10px;
+					border-bottom-style:solid;
+				 }
+				 
+				 p:first-letter
+				 {
+					font-style:italic;
+					font-weight:bold;
+					color:purple;
+					font-size:15px;
+				 }
+				 
+				 body
+				 {
+					background-color:#FFE;
+					background-image:url(back8.jpg);
+					
+
+				 }
+				a{
+					color:purple;
+					font-family:Trebuchet MS;
+					line-height:130%;
+					margin:15px;
+				 }
+				 a:link
+				 {
+					text-decoration:none;
+					
+					
+				 }
+				 a:visited
+				 {
+					color:green;
+				 }
+				 a:hover
+				 {
+					color:blue;
+				 }
+				 a:active
+				 {
+					background-color:white;
+					color:green;
+				 }
+				 
+				 h1{
+						font-family:Big Caslon;
+						color:#8E388E;
+						text-align:center;
+						font-style:italic;
+						border-style:dotted;
+						border-color:#838B83;
+				   }
+				   h3{
+						color:red;
+					
+						
+						
+				   }
+				   table
+				   {
+						color:#8E388E;
+						font-weight:bold;
+						
+				   }
+				   th
+				   {
+						color:white;
+				   }
+				 
+				   
+				  
+				  
+					span{
+					   color:purple;
+					    }
+					
+				
+			
+
+        .auto-style1 {
+            width: 113px;
+            height: 101px
+
+        }
+        .buttonCSS {
+        padding:5px;
+        background-color:#dcdcdc;
+        border:groove;
+        color:#000;
+        text-decoration:double;
+
+        
+        }
+        .txtABC {
+        background:white;
+        border   :1px double #DDD; 
+        border-radius:5px;
+        box-shadow:0 0 5px #333;
+        color:#666;
+        width:165px;
+        outline:none;
+
+        
+        
+        }
+         .txtABC2 {
+        background:#e6e1e1;
+        border   :1px double #DDD; 
+        border-radius:5px;
+        box-shadow:0 0 5px #333;
+        color:#666;
+        width:165px;
+        outline:none;
+
+        
+        
+        }
+
+        .txtABC1 {
+        background:white;
+        border   :1px double #DDD; 
+        border-radius:5px;
+        box-shadow:0 0 5px #333;
+        color:#666;
+        width:250px;
+        outline:none;
+
+        
+        
+        }
+
+
+    </style>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+
+        <asp:UpdatePanel ID="AdminUpdatePanel" runat="server">
+            <ContentTemplate>
+    <table align="center" style ="width : 900px";>
+
+    <tr>
+    <td>
+    <table align="center" style="border-bottom-style: ridge; border-width: medium; width: 900px;border-color: #9933FF">
+     <tr>
+    <td align="center"›
+    <asp:Image ID="Image1" runat="server" Height="67px" ImageUrl="~/images/image1.png" width="57px" />
+    &nbsp;
+
+        <img alt="amaz" class="auto-style1" src="../images/image1.png" /></td>
+    <td>
+    <asp:LinkButton ID="lblLogo" runat="server" Text="My Amazon" Font-Names="Eras Demi ITC" 
+        Font-Size="20pt" ForeColor="#6600CC" OnClick="lblLogo_Click"></asp:LinkButton>
+    <br />
+    For Those Who Love Shopping	!!
+    </td>
+
+    <td align="center">
+
+    <asp:Image ID="Image2" runat="server" Height="81px" Imageurl="~/images/image2.png"
+    Width="109px" />
+    </td> 
+
+     </tr>
+</table>
+</td>
+</tr>
+
+     <tr>
+    <td>
+    <table align="center" style="border: thin ridge #9900FF; width: 900px;">
+    <tr>
+    <td class="style2">
+   
+            <a href="Category.aspx">AllCategory</a>
+        
+        <a href="Product.aspx">AllProducts</a>
+        
+        
+    
+        <a href="CustomerOrders.aspx">CustomerOrders</a>
+         <a href="ProductStock.aspx">ProductStock</a>
+        <a href="IncomeReport.aspx">IncomeReport</a>
+    </td>
+    </tr>
+        </table>
+        </td>
+          </tr>
+        <tr>
+    <td>
+    <table align="center" style="border: 1px ridge #000000;width: 900px;">
+    <tr>
+    <td class="style2" valign="top">
+    <asp:Panel ID="pnlCategories" runat="server">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> </asp:ContentPlaceHolder>
+    </asp:Panel>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+
+
+
+    <tr>
+    <td colspan="2" align="center">
+
+    &nbsp &copy; MyAmazon.com
+    </td>
+    </tr>
+</table>
+            </ContentTemplate>
+
+            </asp:UpdatePanel>
+         </form> 
+   
+</body>
+</html>
+
+
+

@@ -1,0 +1,15 @@
+D:\5th semester\OS\MyAmazon\MyAmazon\bin\MyAmazon.dll
+D:\5th semester\OS\MyAmazon\MyAmazon\bin\MyAmazon.pdb
+D:\5th semester\OS\MyAmazon\MyAmazon\obj\Debug\MyAmazon.csprojResolveAssemblyReference.cache
+D:\5th semester\OS\MyAmazon\MyAmazon\obj\Debug\MyAmazon.dll
+D:\5th semester\OS\MyAmazon\MyAmazon\obj\Debug\MyAmazon.pdb
+D:\MyAmazon\MyAmazon\bin\MyAmazon.dll
+D:\MyAmazon\MyAmazon\bin\MyAmazon.pdb
+D:\MyAmazon\MyAmazon\obj\Debug\MyAmazon.csprojResolveAssemblyReference.cache
+D:\MyAmazon\MyAmazon\obj\Debug\MyAmazon.dll
+D:\MyAmazon\MyAmazon\obj\Debug\MyAmazon.pdb
+F:\universirty files\running project db\MyAmazon\MyAmazon\bin\MyAmazon.dll
+F:\universirty files\running project db\MyAmazon\MyAmazon\bin\MyAmazon.pdb
+F:\universirty files\running project db\MyAmazon\MyAmazon\obj\Debug\MyAmazon.csprojResolveAssemblyReference.cache
+F:\universirty files\running project db\MyAmazon\MyAmazon\obj\Debug\MyAmazon.dll
+F:\universirty files\running project db\MyAmazon\MyAmazon\obj\Debug\MyAmazon.pdb
